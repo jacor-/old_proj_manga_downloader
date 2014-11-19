@@ -24,7 +24,7 @@ def error():
     #print str(x)
     if x[-2].split("[")[1].split("]")[0] == "3":
     #if "404" in x or "unspecified" in x:
-        print "error detected"
+        #print "error detected"
         f.close()
         return True
     f.close()
@@ -48,9 +48,9 @@ def downloadNarutoFromTo(first,last):
         chdir("book"+str(book))
         chapter = 1
         while True:
-            print "printing " + "wget("+get_url([fill_number(book),fill_number(chapter)])+")"
+            #print "printing " + "wget("+get_url([fill_number(book),fill_number(chapter)])+")"
             system("wget "+get_url([fill_number(book),fill_number(chapter)])+" 2> error")
-            print str(error())
+            #print str(error())
             if error() == True:
                 break
             chapter = chapter + 1
