@@ -1,3 +1,7 @@
-Really old project rescued from some private repos :)
+* Port from an old bitbucket repository. *
 
-A very single and extremely non-modular webScrapping system to download mangas from some specific webpages serving them.
+# Content
+
+An extremely non-modular manga downloader. It downloaded independent pages from some webpages and they were gathered into a pdf per volume.
+
+The code does not work anymore because the webpages it scrapes do not exist anymore. 

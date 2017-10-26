@@ -21,19 +21,6 @@ def convert2pdf(book_number):
     print "book " + book_number + " successfully created"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 def error():
     f = open("error")
     x = f.readlines()[-2]
